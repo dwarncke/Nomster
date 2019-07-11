@@ -71,3 +71,5 @@ source 'http://rails-assets.org' do
 end
 
 gem 'awesome_print'
+
+gem 'simple_form'
