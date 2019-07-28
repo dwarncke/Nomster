@@ -7,7 +7,7 @@ Rails.application.configure do
     domain: "example.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: ENV['daniel.warncke@gmail.com'],
+    user_name: ENV['danielcodingucf@gmail.com'],
     password: ENV['1LUG2rox4@']
   }
   config.action_mailer.default_url_options = {host: 'localhost:3030'}
