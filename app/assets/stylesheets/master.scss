@@ -23,6 +23,22 @@ body {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  height: 550px;
+  width: 100%;
+}
+
+.carousel-item-prev {
+  display: block;
+}
+
+.carousel-caption {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+}
+
 .navbar {
   background: image_url('ep_naturalblack.png');
   box-shadow: 0px 1px 3px #2a2a2a;
@@ -30,7 +46,7 @@ body {
 
 .navbar-inverse .navbar-brand {
   color: blue;
-  
+  margin-bottom: 0;  
 }
 
 .invalid-feedback {
@@ -47,6 +63,7 @@ body {
 .clear {
   clear: both;
 }
+
 
 blockquote {
   background: #f9f9f9;
