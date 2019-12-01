@@ -59,6 +59,7 @@ var marker = new google.maps.Marker({
   <%= f.input :message %>
   <%= f.input :rating, as: :select, collection: Comment::RATINGS %>
   <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
+  <%= f.submit "Delete a Comment", class: 'btn btn-danger' %>
 <% end %>
 
 <div class="clear"></div>
@@ -66,6 +67,7 @@ var marker = new google.maps.Marker({
   <%= f.input :picture %>
   <%= f.input :caption %>
   <%= f.submit "Add a Photo", class: 'btn btn-primary' %>
+  <%= f.submit "Add a Photo", class: 'btn btn-danger' %>
 <% end %>
 
 
